@@ -11,7 +11,7 @@
 				background:#e6eaed;
 				font-family:Arial;
 				overflow-x:hidden;
-				background-size:100%;
+				background-size:50%;
 				
 			}
 			
