@@ -1,0 +1,44 @@
+
+#links div{float:left;color:white;cursor:pointer;padding:0px;height:40px;font-weight:bold;}
+			#links{position:absolute;right:20px;top:10px;}
+			//#links div:hover{background-color:#4791DA}
+			#links div p,#links div img{padding-left:18px;padding-right:18px;}
+			
+			#header h1
+			{
+				font-family:"Myriad Pro", "Trebuchet MS", sans-serif;
+				font-size:17px;
+				font-weight:bold;
+				color:white;
+				display:inline-block;
+				text-shadow:1px 1px 1px none;
+				margin-left:15px;
+				margin-top:15;
+			}
+			
+			#header
+			{
+				background:#0072C6;
+				//opacity:0.7;
+				width:100%;
+				position:fixed;
+				left:-10px;
+				top:-10px;
+				height:50px;
+			}
+			
+			#sidebar 
+			{
+				position:absolute;
+				left:0px;
+				top:40px;
+				height:93%;
+				width:250px;
+				background:#F0F0F0;
+			}
+			#sidebar div{height:50px;display:block;}
+			#sidebar div:hover{background:#CDCDCD;cursor:pointer}
+			#sidebar div div{float:left}
+			#sidebar div{padding:15px;}
+			#sidebar div .text{margin-top:-8px;height:30px;font-weight:bold;}
+			#sidebar div .photo{height:30px;}
