@@ -1,0 +1,28 @@
+a:visited{color:white;}
+a{text-decoration:none;}
+
+body{overflow-x:hidden;font-family:"Myriad Pro", "Trebuchet MS", sans-serif;}
+#rightbar{position:absolute;top:0px;right:-400px;background:white;width:260px;height:100%;border-left:1px solid black;}
+#rightbar #notifications{position:absolute;top:0px;left:0px;background-color:white;width:130px;height:130px;}
+#rightbar #msgs{position:absolute;top:0px;left:130px;background:rgb(240,240,240);width:130px;height:130px;}
+#rightbar #values{position:absolute;top:130px;left:0px;background:white;width:300px;overflow-y:scroll;}
+#rightbar div:hover{cursor:pointer;}
+#rightbar div{padding:0px;}
+#rightbar #values .nvalue,#rightbar #values .mvalue{border-bottom:1px solid black;}
+
+#notifyButton
+{
+background:white;color:black;border:1px solid white;position:absolute;top:60px;right:0px;
+//box-shadow:-2px 2px 2px 2px;
+height:92px;
+}
+#notifyButton:hover{cursor:pointer;}
+#new
+{position:relative;
+left:40px;
+top:-68px;
+font-size:25px;
+font-weight:bold;
+}
+
+#ajaxLoader{visibility:hidden;position:absolute;left:75px;}
